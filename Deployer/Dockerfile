@@ -1,4 +1,4 @@
-FROM cjsewell/silverstripe-web-yarn
+FROM cjsewell/silverstripe-web-yarn:latest
 
 ENV PATH="/root/.composer/vendor/bin:${PATH}"
 ENV COMPOSER_ALLOW_SUPERUSER=1
